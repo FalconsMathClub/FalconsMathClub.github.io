@@ -1,2 +1,1 @@
 alert("Hello world")
-console.log("no")
