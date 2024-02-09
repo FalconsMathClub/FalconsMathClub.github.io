@@ -1,0 +1,27 @@
+#Charities{
+    margin: 23px 25%;
+    text-align: center;
+  }
+  
+  span{
+    margin-right: 13px;
+  }
+
+  html{
+    background: rgb(9,9,121);
+    background: linear-gradient(85deg, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 86%);
+    display:flex;
+    justify-content: center;
+    padding-top: 5%;
+  }
+
+  body{
+    background-color: white;
+    width: 70%;
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  h1{
+    text-align: center;
+  }
