@@ -9,7 +9,7 @@
 
   html{
     background: rgb(9,9,121);
-    background: linear-gradient(85deg, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 86%);
+    background: linear-gradient(0deg, rgba(9,9,121,1) 21%, rgba(0,212,255,1) 86%);
     display:flex;
     justify-content: center;
     padding-top: 5%;
