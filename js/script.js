@@ -20,7 +20,10 @@
 //     inDuration: 500
 //     }
 //     var instances = M.Collapsible.init(elems, options);})
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.collapsible');
-    var instances = M.Collapsible.init(elems, options);
-  });
+document.addEventListener('DOMContentLoaded', function () {
+  var elems = document.querySelectorAll('.collapsible');
+  var options = {
+    inDuration: 500
+  }
+  var instances = M.Collapsible.init(elems, options);
+})
