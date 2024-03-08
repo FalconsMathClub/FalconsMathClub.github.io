@@ -27,3 +27,5 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   var instances = M.Collapsible.init(elems, options);
 })
+
+M.Sidenav.init(document.querySelectorAll('.sidenav'), {edge: 'left'});
