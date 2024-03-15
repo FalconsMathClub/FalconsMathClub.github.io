@@ -23,7 +23,8 @@
 document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.collapsible');
   var options = {
-    inDuration: 500
+    inDuration: 500,
+    accordion: false
   }
   var instances = M.Collapsible.init(elems, options);
 })

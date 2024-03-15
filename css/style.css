@@ -41,3 +41,21 @@
     padding: 5px;
 
   }
+
+  /* styles for large screen */
+  @media only screen and (min-width: 992px) {
+    .title{
+      text-align: center;
+      font-size: 70px;
+      position: absolute;
+      left: 35%;
+      padding-top: 40px;
+    }
+   
+  }
+
+  /* styles for tablet */
+  @media only screen and (min-width: 768px) {
+
+  }
+
