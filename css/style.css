@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+h1,h2,h3{
+    font-family: "Cantata One", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+*{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 #Charities{
     margin: 23px 25%;
@@ -10,11 +26,11 @@
   }
 
   html{
-    background: rgb(49,158,184);
     background: linear-gradient(0deg, rgba(49,158,184,1) 40%, rgba(189,189,189,1) 100%);
     display:flex;
     justify-content: center;
     padding-top: 5%;
+    width: 100%;
   }
 
   body{
@@ -25,9 +41,10 @@
   }
 
   .title{
-    /* text-align: center; */
-    font-size: 2.5em;
-    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    margin: 0px;
+    padding-top: 3%;
   }
 
   img{
@@ -42,20 +59,23 @@
 
   }
 
-  /* styles for large screen */
-  @media only screen and (min-width: 992px) {
-    .title{
-      text-align: center;
-      font-size: 70px;
-      position: absolute;
-      left: 35%;
-      padding-top: 40px;
-    }
-   
-  }
+ 
 
   /* styles for tablet */
-  @media only screen and (min-width: 768px) {
-
+  @media only screen and (min-width: 600px) {
+    .title{
+      font-size: 45px;
+      padding-top: 5%;
+    }
   }
 
+ /* styles for large screen */
+ @media only screen and (min-width: 1100px) {
+  .title{
+    font-size: 70px;
+    position: absolute;
+    left: 35%;
+    padding-top: 40px;
+  }
+ 
+}
