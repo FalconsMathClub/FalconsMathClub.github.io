@@ -62,6 +62,16 @@ h1,h2,h3{
 
   }
 
+  .bigNav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .bigNav li a{
+    color: white;
+  }
  
 
   /* styles for tablet */
