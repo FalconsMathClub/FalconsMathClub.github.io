@@ -75,6 +75,7 @@ h1,h2,h3,h5{
 
   .box{
     text-align: center;
+    background-color: lightgrey;
   }
 
   .navbar li a{
