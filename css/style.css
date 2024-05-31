@@ -20,6 +20,14 @@ h1,h2,h3,h5,h7{
   text-align: center;
 }
 
+.howToJoin{
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 #Charities{
     margin: 23px 25%;
     text-align: center;
@@ -59,9 +67,16 @@ h1,h2,h3,h5,h7{
     margin-top: 2em;
   }
 
+  .welcomeText{
+    margin-left: 29px;
+    margin-right: 29px;
+  }
+
   .quotes{
     display: block;
     border-radius: 9px;
+    padding-top: 11px!important;
+    padding-bottom: 11px!important;
     position: relative;
     font-size: 15px;
     background-color: lightgrey;
@@ -112,6 +127,10 @@ h1,h2,h3,h5,h7{
   padding-right: 1.5em;
 }
 
+.dropdownWords{
+  margin-left: 10px;
+}
+
 .wrapper{
   display: flex;
   flex-direction: column;
@@ -123,6 +142,11 @@ h1,h2,h3,h5,h7{
 .locations{
   display: flex;
   flex-direction: column;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 
 .contact-icon{
@@ -158,8 +182,22 @@ h1,h2,h3,h5,h7{
     justify-content: center;
   }
 
+  .locations{
+    border-radius: 5px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+
   .contact-icon{
     font-size: 45px!important;
+  }
+
+  .welcomeText{
+    margin-left: 40px;
+    margin-right: 40px;
+    
   }
  
 }
