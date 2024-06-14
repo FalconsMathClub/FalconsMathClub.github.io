@@ -26,16 +26,13 @@ document.addEventListener('DOMContentLoaded', function () {
     inDuration: 500,
     accordion: false
   }
-  var instances = M.Collapsible.init(elems, options);
+  var instances = M.Collapsible.init(elems);
 })
 
 M.Sidenav.init(document.querySelectorAll('.sidenav'), {edge: 'left'});
 
-document.getElementById("submit").addEventListener("click", () => {
-  let pass = document.getElementById("password").value
-  let password = "FalconsMC"
-  if (pass == password){
-    document.getElementById("lesson-plans").classList.remove("hide")
-    document.getElementById("initial").classList.add("hide")
-  }
-})
+
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.carousel');
+  var instances = M.Carousel.init(elems);
+});
