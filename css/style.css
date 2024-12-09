@@ -28,6 +28,39 @@ h1,h2,h3,h5,h7{
   padding-right: 15px;
 }
 
+.bigpicture{
+  border-radius: 3%;
+}
+
+/* width: 50%;  Resize the image to 50% of its original width */
+/* height: auto;  Keep the aspect ratio intact */
+
+.bios {
+  display: flex; /* Align items in a row */
+  justify-content: space-between; /* Distribute the space evenly between items */
+  align-items: center; /* Align items vertically in the center */
+  gap: 20px; /* Add space between the items */
+  margin: 20px; /* Optional: add margin around the whole container */
+}
+
+.bio {
+  text-align: center; /* Align text inside each bio to the center */
+  width: 30%; /* Optional: Set a fixed width for each bio */
+}
+
+.headshots {
+  width: 100%; /* Make images responsive to the container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Optional: Make images circular */
+  margin-bottom: 10px; /* Add space below the image */
+}
+
+.center {
+  margin-top: 10px; /* Add space between image and name */
+}
+
+
+
 #Charities{
     margin: 23px 25%;
     text-align: center;
