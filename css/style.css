@@ -49,7 +49,7 @@ h1,h2,h3,h5,h7{
 }
 
 .headshots {
-  width: 100%; /* Make images responsive to the container width */
+  width: 50%; /* Make images responsive to the container width */
   height: auto; /* Maintain aspect ratio */
   border-radius: 50%; /* Optional: Make images circular */
   margin-bottom: 10px; /* Add space below the image */
